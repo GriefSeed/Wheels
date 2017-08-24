@@ -25,10 +25,22 @@ for i in range(n):
     for j in range(m):
         list[i][j] = result[index]
         index = index + 1
-    
+
+#print(len(list[0]))
+#print(len(list))   
+
 '''
 #输出二维数组的数据
 for i in range(n):
     for j in range(m):
         print(list[i][j])    
-'''        
+'''
+#正式算法,从左下角开始，先跟上面的比较，如果比target大，就往上，如果上面比target小，就跟右边的比较，直到找到目标, 不过这思路有BUG，因为第二行的第一个数不一定比第一行的都大,所以还是老老实实地对每一行用二分法
+def searchNum(target, list):
+    #横长
+    cLen = len(list[0])
+    #列长
+    lLen = len(list)
+    clLen = 0
+    while cLen >= 0 && lLen > clLen :
+        if list[cLen][] 
