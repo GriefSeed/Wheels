@@ -1,9 +1,0 @@
-请描述在线程的生命周期中， 有几种状态呢
-
-    * 6种状态
-        * NEW：新建，还没调用start()
-        * RUNNABLE:可运行状态，有可能在运行，也可能不是在运行
-        * BLOCKED：锁阻塞状态，等待锁
-        * WAITTING：无限等待，需要其他线程调用notityOf()或notity()唤醒
-        * TIMNED_WAITTING：计时等待
-        * TERMINATED：终止，结束运行

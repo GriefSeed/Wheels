@@ -1,6 +1,0 @@
-继承Thread类方式
-答：继承Thread、重写run()方法、创建新的Thread对象，调用对象的start()方法
-
-实现Runnable接口方式
-
-答：新建类实现Runnable接口、调用Thread构造方法注入新建类并创建新的Thread对象，调用对象的start()方法

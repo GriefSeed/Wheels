@@ -1,3 +1,0 @@
-请说出四种运行时异常
-
-答：NullpointException、IndexOutOfBoundException、FileSystemNoFoundException、ClassCastException

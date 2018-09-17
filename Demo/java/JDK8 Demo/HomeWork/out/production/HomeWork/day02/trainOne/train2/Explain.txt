@@ -1,5 +1,0 @@
-请回答hasNext()和next()的区别：
-
-答：
-hasNext():判断iterator是否有下一个元素，有就true，没有就false
-next():返回下一个元素，并将索引跳到下一个元素后，若没有则抛Exception
