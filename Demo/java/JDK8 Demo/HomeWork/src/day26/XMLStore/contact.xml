@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--xmlns标签声明模板空间位置-->
+<!--xmlns:xsi标签声明自己是一个实例文件-->
+<!--xsi:schemaLocation标签声明自己依据模板空间位置里的哪个xsd文件，IDE会依此模板文件提示-->
+<bitch xmlns="day26.XMLTemplate"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="day26.XMLTemplate bb.xsd">
+    <id>
+        <name></name>
+        <sex></sex>
+        <phone></phone>
+    </id>
+</bitch>

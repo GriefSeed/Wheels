@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="day26.XMLTemplate"
+           elementFormDefault="qualified">
+    <xs:element name="bitch">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="id">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"></xs:element>
+                            <xs:element name="sex" type="xs:string"></xs:element>
+                            <xs:element name="phone" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
